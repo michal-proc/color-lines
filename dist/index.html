@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KULKI by Michał Proć</title>
+    <style>
+        body {
+            width: 900px;
+            display: flex;
+            margin: auto;
+            margin-top: 50px;
+        }
+
+        #left {
+            display: flex;
+            flex-direction: column;
+            flex: 1;
+        }
+
+        #right {
+            width: 540px;
+            margin-left: 75px;
+        }
+
+        h1,
+        h2 {
+            margin: 0;
+        }
+
+        .btn-styles {
+            transition: 1.5s;
+        }
+
+        .btn-styles:hover {
+            background-color: black;
+            color: white;
+        }
+
+        .box {
+            width: 58px;
+            height: 58px;
+            border: 1px solid black;
+            margin: 0;
+            float: left;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .ball {
+            height: 40px;
+            width: 40px;
+            border-radius: 20px;
+        }
+
+        .bigger {
+            height: 50px;
+            width: 50px;
+            border-radius: 25px;
+        }
+
+        #next {
+            height: 58px;
+            display: flex;
+            align-items: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="left">
+        <h1>KULKI</h1>
+        <h2 style="margin-bottom: 50px;">by Michał Proć</h2>
+        <button id="restart">NOWA GRA</button>
+        <p>
+            <i>
+                <left>Następne: </left>
+            </i>
+        </p>
+        <div id="next">
+            <div class="ball" id="b1" style="margin-right: 15px;"></div>
+            <div class="ball" id="b2" style="margin-right: 15px;"></div>
+            <div class="ball" id="b3" style="margin-right: 15px;"></div>
+            <div class="ball" id="b4" style="margin-right: 15px;"></div>
+            <div class="ball" id="b5" style="margin-right: 15px;"></div>
+        </div>
+        <p><i>Punkty: <span id='points'>0</span></i></p>
+    </div>
+    <div id="right"></div>
+    <script src="script.js"></script>
+</body>
+
+</html>
