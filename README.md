@@ -31,7 +31,7 @@ To run the game locally, follow these steps:
 
 2. Navigate to the project directory:
    ```bash
-   cd color-lines-master
+   cd color-lines
    ```
 
 3. Install dependencies:
