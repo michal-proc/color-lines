@@ -71,11 +71,3 @@ The build output will be located in the `dist/` folder.
 3. After every move, new balls will appear.
 4. Align five or more balls of the same color to clear them from the board and earn points.
 5. The game ends when the board is full and no more moves are possible.
-
-## License
-
-This project is open-source and available under the MIT License.
-
-## Contributions
-
-Contributions to improve the game are welcome! Please feel free to submit a pull request or open an issue if you encounter any bugs or have suggestions for new features.
